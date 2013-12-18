@@ -19,7 +19,7 @@ The end result of that attempt is this script.
 
 * The books are sorted by title, alphabetically, but the sort is pretty rudimentary. For example, book titles which begin with "A" or "The" will be sorted under A or T, respectively.
 
-You can see an example of the output at <https://raw.github.com/tjluoma/kindlexml2html/master/kindlexml2html.example.html> (raw HTML) or at <http://share.luo.ma/kindlexml2html/> (same file, as a web page example).
+You can see an example of the output at [kindlexml2html.example.html](https://raw.github.com/tjluoma/kindlexml2html/master/kindlexml2html.example.html) (raw HTML) or at <http://share.luo.ma/kindlexml2html/> (same file, as a web page example).
 
 [1]: http://www.amazon.com/gp/kindle/mac/download‎
 
