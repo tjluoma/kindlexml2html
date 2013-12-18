@@ -13,12 +13,10 @@ XML="$HOME/Library/Application Support/Kindle/Cache/KindleSyncMetadataCache.xml"
 	# If you prefer another browser, put it here
 BROWSER="Safari"
 
-	# if you don't want to scp the resulting file somewhere when you finish, leave SERVER="" blank
+	# if you don't want to scp the resulting file somewhere when you finish, leave SERVER="" blank (or URL or SERVER_FOLDER)
 SERVER=""
-
-SERVER='dh'
-	SERVER_FOLDER='share.luo.ma/kindle'
-		URL="http://$SERVER_FOLDER/"
+SERVER_FOLDER='public_html/kindle'				# NOTE: this folder must already exist on SERVER
+URL="http://www.example.tld/$SERVER_FOLDER/"	# This is the public URL for the
 
 if [ ! -e "$XML" ]
 then
