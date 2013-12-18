@@ -1,5 +1,5 @@
-kindlexml2html
-=================
+kindleXML2HTML
+==============
 
 Zsh shell script to parse Kindle for Mac's cached Kindle book list and turn it into a web page
 
